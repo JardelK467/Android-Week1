@@ -17,10 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         caButton = findViewById(R.id.create_button);//Assigns button id
-    }
-
-    public void goLogin(View view) {
-        Intent intent = new Intent(this, Login.class);//Intent
-        startActivity(intent);
+        caButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, CreateAccount.class);
+            startActivity(intent);
+        });
     }
 }

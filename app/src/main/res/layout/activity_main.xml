@@ -73,7 +73,6 @@
         android:layout_height="39dp"
         android:background="@drawable/gradient_button_background"
         android:fontFamily="@font/museosans_500"
-        android:onClick="goLogin"
         android:text="@string/create_account"
         android:textAllCaps="false"
         android:textSize="20sp"

@@ -3,6 +3,7 @@ package com.example.week1;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
@@ -59,6 +60,9 @@ public class CreateAccount extends AppCompatActivity {
         else //Add it to the list
         editor.putString(email, e);
         editor.apply();
+
+        Intent intent = new Intent(this, Success.class);
+        startActivity(intent);
 
     }
 

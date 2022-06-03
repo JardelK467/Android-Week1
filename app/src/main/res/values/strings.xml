@@ -11,4 +11,6 @@
     <string name="request_a_rescue_online">Request a rescue online</string>
     <string name="policy_information">Policy information</string>
     <string name="email_address">Email address</string>
+    <string name="homepage">Homepage</string>
+    <string name="account_successfully_created">Account successfully created</string>
 </resources>
