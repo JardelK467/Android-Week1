@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Week1</string>
+    <string name="green_flag">Green Flag</string>
+    <string name="create_account">Create an account</string>
+    <string name="password">Create password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="next">Next</string>
+    <string name="password_restrictions">Your password should have a minimum of 8 characters and contain at least one number. one upper and one lowercase letter. You can use special characters</string>
+    <string name="intro">GreenFlag customers can create an account to access</string>
+    <string name="car_health_updates">Car health updates</string>
+    <string name="request_a_rescue_online">Request a rescue online</string>
+    <string name="policy_information">Policy information</string>
+    <string name="email_address">Email address</string>
+</resources>
